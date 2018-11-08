@@ -1,0 +1,41 @@
+body {font: 10 pt verdana; backgroung: #E1DFB9;
+background-attachment:fixed;
+	background-size:1024px 768px;
+}
+h2 {color: #800040: margin: 10; vertical-align: center;}
+ul {list-style-type:circle;}
+#container
+{
+width:760px;
+margin: 0 auto;
+background: #F0F0F0;
+}
+#header
+{
+font-size: 18 pt;
+text-align: center;
+padding: 5px;
+background: #8FA09B;
+color: #FFE;
+}
+#menu
+{margin-top: 10 px;
+width:150px;
+padding:0:
+font-size:9pt;
+float:left;
+}
+#content {
+margin-left:170 px;
+padding:10px;
+background:#FFF;
+min-height:200px;
+}
+#footer
+{
+background: #8FA09B;
+color: #FFF;
+padding:5px;
+text-align: center;
+clear:left;
+}

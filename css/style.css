@@ -1,0 +1,133 @@
+head {
+	margin:auto;
+}
+body {
+	background-attachment:fixed;
+	background-size:100% 100%;
+	margin:left;
+}
+.content {
+margin-left:50px;
+margin-top:-300px;
+min-height:150px;
+}
+.category-wrap {
+  padding: 15px;
+  background: white;
+  width: 100px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.category-wrap h3 {
+  font-size: 16px;
+  color: rgba(0,0,0,.6);
+  margin: 0 0 10px;
+  padding: 0 5px;
+  position: relative;
+}
+.category-wrap ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  border-top: 1px solid rgba(0,0,0,.3);
+}
+.category-wrap li {margin: 12px 0 0 0px;}
+.category-wrap a {
+  text-decoration: none;
+  display: block;  
+  font-size: 13px;
+  color: rgba(0,0,0,.6);
+  padding: 5px;
+  position: relative;
+  transition: 0.3s linear;
+}
+.category-wrap a:hover {
+  background: #0000CD;
+  color: white;
+}
+.gallery a img{  
+	margin-top:100px;  
+	transform:scale(0.9);
+	transition:0.5s;
+    border-radius:  25px;
+    box-shadow: 0px 2px 4px 1px #DFDFDF; 
+    opacity: 0.9;
+    margin-left:5px;
+    padding:10px;
+    height:150px;
+	width:150px;
+}
+.gallery a img:hover{
+	transform:scale(1.0);
+    opacity: 1;
+}
+.gallery a:focus img{
+    position: relative;
+    height:200px;
+	width: 200px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 1px #DFDFDF;   
+}
+.gallery a{
+    outline:0; border:0;
+}
+.p{
+	text-align:center;
+	margin:auto;
+}
+.blok {
+color:white;
+background-position:right;
+background-color:black;
+border:2px inset black;
+border-radius:10px;
+padding:14px 20px 5px;
+margin: 5% 25% 5%;
+text-align:center;
+opacity:0.8;
+margin-top:-200px;
+}
+h4 {
+	color:white;
+margin-left:0px;
+font-size:14pt;
+text-align:justify;
+padding:0px 20px;
+
+position:relative;
+transition:0.5s;
+font-family:Helvetica;
+}
+h5 {
+	color:white;
+margin-left:40px;
+font-size:14pt;
+text-align:justify;
+padding:0px 20px;
+position:relative;
+transition:0.5s;
+font-family:Helvetica;
+}
+.bloklab {
+color:white;
+background-position:right;
+background-color:rgba(0,0,0,0.8);
+border:2px inset black;
+border-radius:10px;
+padding:14px 20px 5px;
+margin: 5% 25% 5%;
+text-align:center;
+
+margin-top:-200px;
+}
+h3 {
+color:white;
+margin-left:40px;
+font-size:14pt;
+text-align:center;
+padding:0px 20px;
+margin-left:-20px;
+position:relative;
+transition:0.5s;
+font-family:Helvetica;
+}
